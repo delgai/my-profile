@@ -1,0 +1,85 @@
+h2 {
+    color:darkolivegreen;
+      font-size: 25px;
+      text-align: center;
+      font-family: monospace;
+  }
+  body {
+background-color: beige;
+text-align: center;
+font-size: 18px;
+font-family: 'Montserrat', sans-serif
+  }
+  h1 {
+font-family:monospace
+  }
+  img {
+border-radius: 50%;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(177, 91, 248)
+  }
+
+  .container {
+    width: 780px;
+    margin: 30px auto;
+  }
+
+  .card-white {
+background-color: white;
+padding: 29px;
+margin: 30px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+border-radius: 5px;
+  }
+
+  ul li{
+    list-style: none;
+  }
+
+  .list-inline {
+    padding-left: 0px;
+  }
+
+  .list-inline li {
+    display: inline;
+    font-size: 50px;
+    padding: 10px;
+  }
+
+ .btn-green {
+  background-color: darkolivegreen;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+ }
+ .btn-green:hover {
+  background-color: rgb(177, 91, 248);
+  color: white
+ }
+
+ #introduction p {
+  margin-bottom: 40px;
+ }
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
